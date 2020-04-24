@@ -1,0 +1,16 @@
+{
+  "name": "",
+  "shortLabel": "All Datasets",
+  "abstract": "This is a local Cell Browser installation, without dataset hierarchies.\n            Please select a dataset from the list on the left.<p>\n            <p>\n            See the documentation on <a target=_blank href=\"https://cellbrowser.readthedocs.io/collections.html\">\n            dataset hierarchies</a>.\n\n        ",
+  "datasets": [
+    {
+      "shortLabel": "TEG_SortSeq",
+      "name": "TEG_SortSeq",
+      "md5": "678805e2a9",
+      "sampleCount": 1992,
+      "hasFiles": [
+        "datasetDesc"
+      ]
+    }
+  ]
+}
