@@ -1,0 +1,27 @@
+{
+  "name": "TEG_SortSeq",
+  "shortLabel": "TEG_SortSeq",
+  "exprMatrix": "exprMatrix.tsv.gz",
+  "meta": "meta.tsv",
+  "geneIdType": "auto",
+  "clusterField": "Clusters",
+  "labelField": "Clusters",
+  "enumFields": [
+    "Plate Number",
+    "Classification",
+    "Clusters"
+  ],
+  "markers": [
+    {
+      "file": "/Users/fkeramati/surfdrive/TEG/CellBrowser/markers.txt",
+      "shortLabel": "Seurat Cluster Markers"
+    }
+  ],
+  "coords": [
+    {
+      "file": "/Users/fkeramati/surfdrive/TEG/CellBrowser/umap.coords.tsv",
+      "shortLabel": "Seurat umap"
+    }
+  ],
+  "inDir": ""
+}

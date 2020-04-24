@@ -1,0 +1,231 @@
+{
+  "fileVersions": {
+    "inMeta": {
+      "fname": "/Users/fkeramati/surfdrive/TEG/CellBrowser/meta.tsv",
+      "md5": "aea4bc0f28",
+      "size": 79841,
+      "mtime": "2020-04-24 01:13:24"
+    },
+    "outMeta": {
+      "fname": "./Browser/TEG_SortSeq/meta.tsv",
+      "md5": "aea4bc0f28",
+      "size": 79841,
+      "mtime": "2020-04-24 01:14:14"
+    },
+    "inMatrix": {
+      "fname": "/Users/fkeramati/surfdrive/TEG/CellBrowser/exprMatrix.tsv.gz",
+      "md5": "52d0627245",
+      "size": 43678637,
+      "mtime": "2020-04-24 01:13:24"
+    },
+    "outMatrix": {
+      "fname": "./Browser/TEG_SortSeq/exprMatrix.tsv.gz",
+      "md5": "52d0627245",
+      "size": 43678637,
+      "mtime": "2020-04-24 01:14:14"
+    },
+    "conf": {
+      "fname": "/Users/fkeramati/surfdrive/TEG/CellBrowser/cellbrowser.conf",
+      "md5": "5232a94dc0",
+      "size": 455,
+      "mtime": "2020-04-24 01:13:24"
+    }
+  },
+  "sampleCount": 1992,
+  "matrixWasFiltered": false,
+  "metaFields": [
+    {
+      "name": "Cell",
+      "label": "Cell",
+      "type": "uniqueString",
+      "maxSize": 6,
+      "diffValCount": 1992,
+      "md5": "2766a0e446"
+    },
+    {
+      "name": "PlateNumber",
+      "label": "Plate Number",
+      "type": "enum",
+      "valCounts": [
+        [
+          "P2",
+          313
+        ],
+        [
+          "P4",
+          312
+        ],
+        [
+          "P7",
+          312
+        ],
+        [
+          "P8",
+          302
+        ],
+        [
+          "P5",
+          301
+        ],
+        [
+          "P1",
+          294
+        ],
+        [
+          "P3",
+          158
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 7,
+      "md5": "a4181e3cc0"
+    },
+    {
+      "name": "Classification",
+      "label": "Classification",
+      "type": "enum",
+      "valCounts": [
+        [
+          "engaging",
+          765
+        ],
+        [
+          "not_exposed",
+          614
+        ],
+        [
+          "non-engaging",
+          613
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 3,
+      "md5": "d2536c3cb5"
+    },
+    {
+      "name": "PercentMitochondrial",
+      "label": "Percent_Mitochondrial",
+      "arrType": "float32",
+      "type": "float",
+      "diffValCount": 1992,
+      "md5": "97799ea44a"
+    },
+    {
+      "name": "Clusters",
+      "label": "Clusters",
+      "type": "enum",
+      "valCounts": [
+        [
+          "0",
+          741
+        ],
+        [
+          "1",
+          501
+        ],
+        [
+          "2",
+          332
+        ],
+        [
+          "3",
+          321
+        ],
+        [
+          "4",
+          41
+        ],
+        [
+          "5",
+          30
+        ],
+        [
+          "6",
+          26
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 7,
+      "md5": "42773f80a0"
+    }
+  ],
+  "matrixArrType": "Float32",
+  "labelField": "Clusters",
+  "coords": [
+    {
+      "name": "coords_0",
+      "shortLabel": "Seurat umap",
+      "md5": "552ef242db",
+      "minX": 0,
+      "maxX": 65534,
+      "minY": 0,
+      "maxY": 65535,
+      "type": "Uint16",
+      "labelMd5": "d41d8cd98f"
+    }
+  ],
+  "hasFiles": [
+    "datasetDesc"
+  ],
+  "topMarkers": {
+    "0": [
+      "EGR2",
+      "NR4A3",
+      "GZMB",
+      "NR4A2",
+      "CSF2"
+    ],
+    "1": [
+      "RCBTB2",
+      "PFN1",
+      "PTPRCAP",
+      "ITGAL",
+      "FYB"
+    ],
+    "2": [
+      "PDE3B",
+      "SYTL3",
+      "STK17B",
+      "PDE4A",
+      "HSH2D"
+    ],
+    "3": [
+      "IL17RB",
+      "TCF4",
+      "CHDH",
+      "CD4",
+      "BHLHE40-AS1"
+    ],
+    "4": [
+      "TNS3",
+      "RORC",
+      "PDLIM4",
+      "CCL20",
+      "GOLIM4"
+    ],
+    "5": [
+      "ZNF683",
+      "KIT",
+      "B3GALT2",
+      "LGALS3",
+      "LST1"
+    ],
+    "6": [
+      "HJURP",
+      "DLGAP5",
+      "KIF15",
+      "ASPM",
+      "KIF2C"
+    ]
+  },
+  "markers": [
+    {
+      "name": "markers_0",
+      "shortLabel": "Seurat Cluster Markers"
+    }
+  ],
+  "name": "TEG_SortSeq",
+  "shortLabel": "TEG_SortSeq",
+  "clusterField": "Clusters",
+  "md5": "678805e2a9"
+}
